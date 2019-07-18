@@ -1,0 +1,89 @@
+<! DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title> 表单标记 </title>
+</head>
+<body>
+       hello world !
+      <p> 你知道什么是SAP吗？<br />让我们一起了解SAP</p>
+      <font face="微软雅黑" size="5" color="blue">
+      SAP是德国的ERP软件，目前在全球进行实施</font>
+      <hr />
+      <img src = "5373eda05de9171e8e93e8817b933814.jpg" width="271"height="180"border="0"/>
+<table border="0.5">
+      <tr>
+      <td>姓名</td>
+      <td>年龄</td>
+      <td>性别</td>
+      <td>职业</td>
+      </tr>
+      <tr>
+      <td>林少芳</td>
+      <td>25</td>
+      <td>女</td>
+      <td>consulting</td>
+      </tr>
+</table>
+<fieldset>
+<legend>注册新用户</legend>
+      <! --表单数据的提交方式是POST -->
+<form action="#" method="post">
+<table cellpadding="2" align="center">
+      <tr>
+      <td align="right">用户名：</td>
+      <td>
+      <! --文本输入框控件-->
+      <input type="text" name= "username"/>
+      </td>
+      </tr>
+      <tr>
+      <td align="right">密码：</td>
+      <! --密码输入框控件-->
+      <td><input type ="password" name="password"/></td>
+      </tr>
+      <tr>
+      <td align="right">性别：</td>
+      <td>
+      <! -- 单选输入框控件-->
+      <input type="radio" name="gender" value="male"/>男
+      <input type="radio" name="gender" value="female"/>女
+      </td>
+      </tr>
+      <tr>
+      <td align="right">兴趣：</td>
+      <td>
+      <! --复选框控件-->
+      <input type="checkbox" name="interest" value="film"/>电影
+      <input type="checkbox" name="interest" value="code"/>写代码
+      <input type="checkbox" name="interest" value="game"/>玩游戏
+      </td>
+      </tr>
+      <tr>
+      <td align="right">头像：</td>
+      <! --文件上传控件-->
+      <td><input type="file" name="photo"/></td>
+      </tr>
+      <tr>
+      <td colspan="2" align="center">
+      <! --注册按钮控件-->
+      <input type="submit" value="注册"/>
+      <input type="reset" value="重填"/>
+      </td>
+      </tr>
+</table>
+</form>
+</fieldset>   
+<font size="5"> 其他ERP软件介绍：</font></br>
+<ul>
+      <li type="disc">ORACLE</li>
+      <li type="disc">金蝶</li>
+      <li type="disc">用友</li>
+</ul>  
+      <a href="https://www.oracle.com/index.html" target="_blank">ORACLE</a>
+      <br />
+      <a href="http://www.kingdee.com/" target="_blank">金蝶</a>
+      <br />
+      <a href="http://www.yonyou.com/" target="_blank">用友</a>
+</body>
+</html>
